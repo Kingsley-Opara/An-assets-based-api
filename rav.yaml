@@ -1,0 +1,11 @@
+scripts:
+  migrate: cd src && python manage.py migrate
+  server: cd src && python manage.py runserver 8080
+  collectstatic: cd src && python manage.py collectstatic
+  installs:
+    - pip-compile src/requirements/requirements.in -o src/requirements.txt
+    - python -m pip install -r src/requirements.txt
+
+  
+
+

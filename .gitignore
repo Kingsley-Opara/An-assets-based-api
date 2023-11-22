@@ -1,0 +1,8 @@
+# created by virtualenv automatically
+.env
+Lib/**
+Scripts/**
+pyvenv.cfg
+db.sqlite3
+venv 
+local_cdn

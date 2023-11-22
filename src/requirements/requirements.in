@@ -1,0 +1,6 @@
+rav
+django == 4.0
+djangorestframework
+django-dotenv
+pillow
+django-dotenv
